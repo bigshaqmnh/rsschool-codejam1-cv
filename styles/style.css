@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "FjallaOne";
+  src: url(../fonts/FjallaOne-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway-bold";
+  src: url(../fonts/Raleway-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "PressStart2P";
+  src: url(../fonts/PressStart2P-Regular.ttf);
+  font-weight: 400;
+}
+
+body {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Raleway";
+  font-size: 1.5em;
+}
+
+hr {
+  background-color: #90ee90;
+  height: 3px;
+  border: none;
+  position: relative;
+  top: 12px;
+}
+
+a {
+  color: #3d0c6b;
+}
+
+a:hover {
+  color: aqua;
+  font-size: 1.1em;
+}
+
+a:visited {
+  color: #674957;
+}
+
+h2 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-family: "FjallaOne";
+  font-size: 1.4em; 
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  display: flex;
+  float: left;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+header {
+  background: #add8e6;
+  width: 15%;
+}
+
+header .logo a{
+  font-family: "Raleway-bold";
+  font-size: 2em;
+  font-style: normal;
+  color: #578935;
+  position: relative;
+}
+
+.navigation-list {
+  position: relative;
+  top: 30px;
+}
+
+main {
+  background: #ffe4c4;
+  width: 70%;
+  padding: 0px 20px;
+}
+
+.my-image-wrapper {
+  margin: 20px 0px 10px 30px;
+  padding: 10px;
+  position: relative;
+  background: grey;
+  border: 2px silver solid;
+}
+
+.my-image-wrapper img {
+  position: relative;
+  left: 10px;
+}
+
+.my-image-wrapper h2 {
+  position: relative;
+  top: 5px;
+}
+
+.my-image-wrapper p {
+  position: relative;
+  top: 5px;
+  padding: 10px;
+}
+
+.introduction-wrapper {
+  position: relative;
+  top: 50px;
+  right: 100px;
+}
+
+.introduction-wrapper h1 {
+  text-align: center;
+  font-family: "FjallaOne";
+  font-size: 1.5em;
+  position: relative;
+}
+
+.introduction-wrapper p {
+  position: relative;
+  top: 10px;
+}
+
+footer {
+  background: #add8e6;
+  width: 15%;
+  position: relative;
+}
